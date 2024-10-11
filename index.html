@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <section id="header">
+      <h1>Welcome to Tic-Tac-Toe!</h1>
+      <h2>Your skills will decide your fate!</h2>
+    </section>
+
+    <section>
+      <div id="board-container"></div>
+      <div id="message" style="display: none"></div>
+    </section>
+
+    <div id="chat-room">
+      <div class="screen">Chat with other players here!</div>
+      <input name="chat" id="chat-text" type="text" />
+    </div>
+
+    <div id="reset">
+      <button onclick="resetGame()">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
